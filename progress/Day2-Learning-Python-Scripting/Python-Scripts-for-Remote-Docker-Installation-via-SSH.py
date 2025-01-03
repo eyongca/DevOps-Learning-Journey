@@ -9,9 +9,9 @@ Version: 1.1
 import subprocess
 
 # Define the remote server and SSH details
-REMOTE_USER = "ubuntu"
-REMOTE_HOST = "3.89.93.62"
-SSH_KEY_PATH = "/home/devops/Downloads/devops.pem"  # Path to your SSH private key
+REMOTE_USER = "<REMOTE_USER>"  # Replace with your remote server username
+REMOTE_HOST = "<REMOTE_HOST>"  # Replace with your remote server IP or hostname
+SSH_KEY_PATH = "<SSH_KEY_PATH>"  # Replace with the path to your SSH private key
 
 def run_remote_command(command):
     """
