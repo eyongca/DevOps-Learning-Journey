@@ -1,140 +1,160 @@
 # DevOps Learning Journey
 
-Welcome to my **DevOps Learning Journey**! This repository serves as a documentation and showcase of my progress as I transition from a career in **Cybersecurity**, where I have over 5 years of experience, to becoming a proficient DevOps Engineer. My strong foundation in cloud technologies and cybersecurity principles provides a unique perspective as I delve into the DevOps domain. Below, you'll find the detailed roadmap I am following, broken down into a 3-month plan. The repository will include scripts, configurations, and projects that reflect my learning.
+Welcome to my **DevSecOps Learning Journey**! This repository serves as a documentation and showcase of my progress as I transition from a career in **Cybersecurity** and **DevOps**, where I have over 5 years of experience, to becoming a proficient DevSecOps Engineer. My strong foundation in DevOps and cybersecurity principles provides a unique perspective as I delve into the DevOps domain. Below, you'll find the detailed roadmap I am following, broken down into a 3-month plan. The repository will include scripts, configurations, and projects that reflect my learning.
 
-## Learning Plan Overview
+Here's your learning plan adapted for a **DevSecOps** focus:  
 
-### Month 1: Foundational Skills
+---
 
-#### Week 1-2: Programming Languages
+## **DevSecOps Learning Plan Overview**
+
+### **Month 1: Foundational Skills**
+
+#### **Week 1-2: Programming Languages**
 
 - **Python**:
-  - Focus: Scripting, automation, and libraries like `os`, `subprocess`, and `paramiko`.
-  - Projects: Automate routine tasks.
+  - Focus: Scripting, automation, and security-focused libraries like `os`, `subprocess`, `paramiko`, and `cryptography`.
+  - Projects: Automate security scans and routine tasks.
   - Certification: [PCAP - Python Certified Associate Programmer](https://pythoninstitute.org/)
 
 - **Go**:
   - Basics: Syntax, concurrency, and networking.
-  - Projects: Write simple web servers or CLI tools.
+  - Security Focus: Secure coding practices and input validation.
+  - Projects: Write secure CLI tools or web servers.
 
-#### Week 3-4: Operating Systems & Scripting
+#### **Week 3-4: Operating Systems & Scripting**
 
 - **Operating Systems**:
   - Ubuntu, FreeBSD, RHEL.
-  - Focus: Package management, system services, file permissions, and networking.
-  - Hands-on: Set up virtual machines for practical experience.
+  - Focus: Security hardening, package management, file permissions, and secure networking.
+  - Hands-on: Set up and secure virtual machines.
 
 - **Scripting**:
-  - Bash scripting for automation.
+  - Bash scripting for automation and security tasks (e.g., log rotation, vulnerability scanning).
 
 - **Editors**:
   - Tools: Vim, Nano, Emacs.
-  - Practice: Editing and scripting workflows.
+  - Practice: Editing and scripting workflows securely.
 
 - **System Monitoring and Networking Tools**:
-  - Tools: `top`, `htop`, `iotop`, `netstat`, `tcpdump`, `ifconfig`.
+  - Tools: `top`, `htop`, `tcpdump`, `iptables`, `nmap`.
+  - Focus: Monitor and secure systems effectively.
 
 ---
 
-### Month 2: Intermediate Skills
+### **Month 2: Intermediate Skills**
 
-#### Week 1: Version Control
+#### **Week 1: Version Control**
 
 - **Git**:
-  - Learn branching, merging, resolving conflicts, and rebasing.
-  - Practice: Contribute to an open-source project.
+  - Learn branching, merging, resolving conflicts, and securing repositories.
+  - Practice: Contribute to open-source DevSecOps tools.
   - Certification: [GitHub Skills](https://skills.github.com/)
 
 - **GitHub**:
-  - Set up repositories, workflows, and permissions.
+  - Set up secure repositories, workflows, and access controls.
 
-#### Week 2: Containers and Networking
+#### **Week 2: Containers and Networking**
 
 - **Docker**:
-  - Learn image creation, containerization, and managing volumes/networks.
-  - Practice: Containerize a Python application.
+  - Learn image creation, containerization, and secure image management.
+  - Practice: Build a secure containerized Python application.
   - Certification: [Docker Certified Associate](https://www.docker.com/certification/)
 
 - **Networking Tools and Concepts**:
   - DNS, HTTP, HTTPS, SSL/TLS, SSH.
-  - Practice: Set up a basic forward and reverse proxy, caching server, firewall, and load balancer.
+  - Security Focus: Secure communications and mitigate network attacks.
+  - Practice: Configure a secure reverse proxy, firewall, and load balancer.
 
-#### Week 3: Cloud Skills (Intermediate Level)
+#### **Week 3: Cloud Security Skills**
 
 - **AWS, Azure, and Google Cloud**:
-  - Focus: Intermediate-level concepts such as IAM roles, VPC configuration, advanced networking, and serverless computing (e.g., AWS Lambda, Azure Functions).
-  - Hands-on: Deploy a multi-tier application using cloud-native tools and integrate with cloud monitoring.
+  - Focus: Identity and Access Management (IAM), VPC security, encryption, and serverless security (e.g., AWS Lambda with secure practices).
+  - Hands-on: Deploy a secure multi-tier application and integrate security monitoring.
   - Certification:
-    - AWS: [AWS Certified Solutions Architect – Associate](https://aws.amazon.com/certification/)
-    - Azure: [Microsoft Azure Administrator](https://learn.microsoft.com/en-us/certifications/azure-administrator/)
-    - Google Cloud: [Google Associate Cloud Engineer](https://cloud.google.com/certification/associate-cloud-engineer)
+    - AWS: [AWS Certified Security – Specialty](https://aws.amazon.com/certification/)
+    - Azure: [Microsoft Azure Security Engineer Associate](https://learn.microsoft.com/en-us/certifications/azure-security-engineer/)
+    - Google Cloud: [Google Professional Cloud Security Engineer](https://cloud.google.com/certification/cloud-security-engineer)
 
-#### Week 4: Provisioning and Configuration Management
+#### **Week 4: Provisioning and Configuration Management**
 
 - **Terraform**:
-  - Practice creating infrastructure as code.
+  - Learn secure infrastructure as code practices (e.g., secrets management).
   - Certification: [HashiCorp Terraform Associate](https://www.hashicorp.com/certification/terraform-associate)
 
 - **Ansible**:
-  - Learn inventory, playbooks, and modules.
-  - Practice: Automate web server setup.
+  - Automate secure server setup and compliance checks.
+  - Practice: Harden web server configurations.
 
 ---
 
-### Month 3: Advanced Tools and Concepts
+### **Month 3: Advanced Tools and Concepts**
 
-#### Week 1: CI/CD & Secret Management
+#### **Week 1: CI/CD & Secret Management**
 
-- **CI/CD Tools**: GitLab CI, CircleCI, Jenkins, GitHub Actions.
-  - Practice: Build and deploy a simple pipeline.
+- **CI/CD Tools**:
+  - Tools: GitLab CI, CircleCI, Jenkins, GitHub Actions.
+  - Focus: Build secure pipelines (e.g., integrate SAST, DAST, and compliance checks).
+  - Practice: Deploy a pipeline with automated security testing.
 
 - **Secret Management**:
-  - Vault for securely managing secrets.
-  - Practice: Integrate Vault with Terraform.
+  - Tools: HashiCorp Vault, AWS Secrets Manager.
+  - Practice: Securely manage secrets and integrate with CI/CD.
 
-#### Week 2: Monitoring & Logs
+#### **Week 2: Monitoring, Logs & Threat Detection**
 
 - **Infrastructure Monitoring**:
   - Tools: Prometheus, Grafana, Datadog.
-  - Practice: Set up a monitoring dashboard.
+  - Practice: Monitor security metrics and detect anomalies.
 
 - **Logs Management**:
-  - Tools: Loki and Elastic Stack.
-  - Practice: Centralize logs from a multi-container app.
+  - Tools: Loki, Elastic Stack, Graylog.
+  - Practice: Centralize and analyze logs for threat detection.
 
-#### Week 3: Container Orchestration
+#### **Week 3: Container Orchestration**
 
 - **Kubernetes**:
-  - Learn pod management, scaling, and services.
-  - Practice: Deploy a multi-container application.
-  - Certification: [CKA - Certified Kubernetes Administrator](https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/)
+  - Learn pod security, network policies, and RBAC.
+  - Practice: Deploy and secure a multi-container application.
+  - Certification: [CKS - Certified Kubernetes Security Specialist](https://training.linuxfoundation.org/certification/certified-kubernetes-security-specialist-cks/)
 
-#### Week 4: Advanced Topics
+#### **Week 4: Advanced Topics**
 
-- **GitOps**: ArgoCD.
-- **Service Mesh**: Istio, Consul.
+- **GitOps**:
+  - Tools: ArgoCD.
+  - Focus: Secure GitOps workflows.
+
+- **Service Mesh**:
+  - Tools: Istio, Consul.
+  - Focus: Secure service-to-service communication.
+
 - **Cloud Design Patterns**:
-  - Availability, data management, monitoring patterns.
-- **Artifact Management**: Artifactory.
+  - Focus: Security patterns like encryption, key rotation, and least privilege.
+
+- **Artifact Management**:
+  - Tools: Artifactory.
+  - Practice: Manage and secure build artifacts.
 
 ---
 
-## Ongoing Learning
+## **Ongoing Learning**
 
-- Hands-on Labs:
+- **Hands-on Labs**:
+  - Practice with platforms like AWS Skill Builder, Google Qwiklabs, and Azure Labs.
 
-- Recommended Books:
+- **Recommended Books**:
   - "The Phoenix Project" by Gene Kim.
-  - "Site Reliability Engineering" by Google.
+  - "The DevOps Handbook" by Gene Kim, Patrick Debois, and others.
+  - "Security Chaos Engineering" by Kelly Shortridge and Aaron Rinehart.
 
-- Communities:
-  - Slack, Reddit, LinkedIn groups focused on DevOps.
+- **Communities**:
+  - Slack, Reddit, LinkedIn groups focused on DevSecOps.
 
 ---
 
 This repository will be regularly updated with:
-- Scripts, configurations, and projects demonstrating each skill.
-- Notes and documentation for key concepts.
+- Secure scripts, configurations, and projects demonstrating each skill.
+- Notes and documentation for security-focused key concepts.
 - Links to resources and certifications achieved.
 
-Thank you for following my journey as I transition from a career in **Cybersecurity** to becoming a **DevOps Engineer**!
+Thank you for following my journey as I transition from a career in **Cybersecurity** and **DevOps** to becoming a **DevSecOps Engineer**!
