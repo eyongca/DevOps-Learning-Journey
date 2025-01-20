@@ -1,0 +1,2 @@
+scan_frequency: daily
+log_file: logs/scan_logs.txt
